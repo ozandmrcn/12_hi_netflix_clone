@@ -1,0 +1,236 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Ortak Özellikler */
+body {
+  background-color: black;
+  color: white;
+}
+
+.seperation {
+  border: 3px solid rgba(54, 54, 54);
+}
+
+/* Banner */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(assets/banner.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 60vw;
+  margin: auto;
+}
+.navbar img {
+  width: 130px;
+}
+.btn {
+  padding: 3px 8px;
+  background-color: rgba(248, 243, 243, 0.021);
+  color: white;
+  border: 1px solid white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.btn-red {
+  background-color: red;
+}
+.btn:hover {
+  background-color: rgba(248, 243, 243, 0.21);
+}
+.btn-red:hover {
+  background-color: rgba(255, 0, 0, 0.21);
+}
+.textbox {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0 30px;
+  height: calc(100% - 100px);
+  text-align: center;
+}
+.textbox h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.banner-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+.banner-text2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.textbox form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.textbox form input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 4px;
+}
+.textbox form button {
+  padding: 8px 24px;
+  font-size: 18px;
+}
+
+/* INFO */
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.info h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.info p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secimg video {
+  position: absolute;
+  top: 75px;
+  right: 60px;
+}
+
+/* Frequently Asked Questions */
+.faq {
+  padding: 35px;
+}
+.faq h2 {
+  font-size: 48px;
+  text-align: center;
+}
+.faq-box {
+  background-color: #272727;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 34px auto;
+  cursor: pointer;
+  max-width: 60vw;
+  transition: all 0.4s;
+}
+.faq-box:hover {
+  background-color: #232323;
+}
+
+/* Footer */
+.footer {
+  max-width: 60vw;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.questions {
+  padding: 34px 0;
+  font-size: 25px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box a {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* ! Responsive Tasarım */
+@media (max-width: 1000px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .info h1 {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .info-area p {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .info {
+    text-align: center;
+  }
+  .info h1 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .secimg {
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+  }
+  .secimg img {
+    width: 100%;
+    height: auto;
+  }
+  .secimg video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+@media (max-width: 700px) {
+  .secImg {
+    width: 100%;
+    overflow: hidden;
+  }
+  .secImg video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
