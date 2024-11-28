@@ -1,6 +1,6 @@
 # Netflix HTML Clone
 
-Welcome to the **Netflix HTML Clone** repository! This project is a replica of an older version of Netflix's interface, recreated with HTML and CSS. The design is fully responsive, ensuring a great experience across different screen sizes, and has been localized in Turkish for a more regional touch.
+Welcome to the **Netflix HTML Clone** repository! This project is a replica of an older version of Netflix's interface, recreated with HTML and CSS. The design is fully responsive, ensuring a great experience across different screen sizes, and has been localized in Turkish.
 
 ## 🎯 Project Overview
 This project aims to replicate a recent but not too new version of Netflix's interface using just HTML and CSS. It serves as both a learning experience and a portfolio piece, showcasing responsive design, layout techniques, and a focus on UI/UX elements.
