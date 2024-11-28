@@ -20,7 +20,8 @@ You can view a demo of the project by visiting the following link:
 *https://ozannch.netlify.app/*
 
 ## Preview
-*(Gif will go here)*
+![netflix](https://github.com/user-attachments/assets/be38ab82-30f2-417f-a89a-d1e4ace8aaea)
+
 
 ## 📧 Contact
 
