@@ -6,12 +6,17 @@ This project aims to replicate a recent but not too new version of Netflix's int
 
 # 🚀 Features
 Responsive Design: Adapts seamlessly to various screen sizes, from desktop to mobile.
+
 UI Layout: Mimics the basic structure and design of Netflix's older interface, including movie carousels and navigation bars.
+
 Localization: Fully translated into Turkish for a more regional and localized experience.
+
 Simple Animation: Smooth hover effects and interactive elements for an engaging user experience.
+
 
 # 🛠️ Technologies Used
 HTML5: For creating the structure of the website.
+
 CSS3: For styling and layout, including Flexbox for responsiveness.
 
 # 🖥️ Demo
