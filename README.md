@@ -17,11 +17,12 @@ This project aims to replicate a recent but not too new version of Netflix's int
 
 ## 🖥️ Demo
 You can view a demo of the project by visiting the following link:  
-[Live Demo](#) *(Link will go here once hosted)*
+*(Link will go here once hosted)*
 
 ## Preview
-![Netflix Clone Preview](#) *(Add image of your project here)*
+*(Gif will go here)*
 
 ## 📧 Contact
-For any questions or feedback, feel free to contact:  
-**Ozan Demircan** - ozandmrcn47@gmail.com
+
+For any questions or feedback, feel free to contact:
+Ozan Demircan - ozandmrcn47@gmail.com
