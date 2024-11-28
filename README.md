@@ -17,7 +17,7 @@ This project aims to replicate a recent but not too new version of Netflix's int
 
 ## 🖥️ Demo
 You can view a demo of the project by visiting the following link:  
-*(Link will go here once hosted)*
+*https://ozannch.netlify.app/*
 
 ## Preview
 *(Gif will go here)*
