@@ -26,6 +26,10 @@ body {
   height: 644px;
 }
 
+.homeinput {
+  color: #fff;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
